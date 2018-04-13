@@ -1,18 +1,14 @@
 ---
-id: 131
 title: 'Phân vân với readable code'
 date: 2018-01-28
 author: ngminhtrung
-layout: post
-guid: 
-permalink: 
 categories:
   - javascript
 tags:
   - code
   - readable
   - clean
-s---
+---
 
 Cảm giác khi đọc code của người khác không phải lúc nào cũng đem lại cảm giác dễ chịu. Trừ những lúc khâm phục ra, thì còn lại chủ yếu là vò đầu bứt tai chửi thề . Từ nỗi khổ của kẻ đi sau, tôi lúc nào cũng muốn mình viết ra những đoạn code dễ hiểu, dễ đọc nhất, vừa giúp cho mình của chính 1 tuần 1 tháng sau, vừa giúp cho bạn nào sau này phải maintain code của mình. Nhưng phải làm thế nào? Để trả lời cho câu này, tôi nhớ lại một vài thứ đọng lại đợt đọc 3 chương đầu của đọc quyển Clean Code là:
 - đặt tên biến có ý nghĩa

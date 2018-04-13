@@ -2,9 +2,6 @@
 title: 'React Developer Tool để sờ nắn props, state và method ReactJS'
 date: 2018-03-28
 author: ngminhtrung
-layout: post
-guid: 
-permalink: 
 categories:
   - javascript
 tags:

@@ -2,7 +2,6 @@
 title: 'App vẽ spirograph - Học ReactJs bằng cách tự làm one-page App đơn giản'
 date: 2018-03-30
 author: ngminhtrung
-layout: post
 categories:
   - javascript
 tags:

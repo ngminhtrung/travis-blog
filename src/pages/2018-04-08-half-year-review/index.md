@@ -2,9 +2,6 @@
 title: 'Review Q1 2018'
 date: 2018-04-08
 author: ngminhtrung
-layout: post
-guid: 
-permalink: 
 categories:
   - selfpondering
 tags:
