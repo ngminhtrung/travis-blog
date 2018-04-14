@@ -1,8 +1,21 @@
 module.exports = {
   siteMetadata: {
-    title: `Blah blah blah`,
+    title: `Electrical Engineer turned Front-End Web Developer. Married to Awesome. Playing with Data and Visualization. Occasional drawer of Minions.`,
+    description: `A blog on front-end development with HTML, CSS, JavaScript and D3.js. Focus on ReactJS.`
   },
   plugins: [
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-106958353-1",
+        // Puts tracking script in the head instead of the body
+        head: false,
+        // Setting this parameter is optional
+        anonymize: true,
+        // Setting this parameter is also optional
+        respectDNT: true,
+      },
+    },
     `gatsby-plugin-glamor`,
     {
       resolve: `gatsby-source-filesystem`,
