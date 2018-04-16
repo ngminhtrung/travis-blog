@@ -1,0 +1,80 @@
+Khi làm việc với object có nhiều key, đôi khi ta phải trích xuất riêng riêng những key quan trọng vào 1 object mới (bỏ qua những key không cần trong nhiệm vụ mới).
+
+Ví dụ, có một object như bên dưới, ta chỉ cần 2 key `name` và `age` mà thôi:
+
+```javascript
+const user = {name: 'Trung Nguyen', age: 34, 'password': '123456'}
+
+```
+
+VỚi cách làm hiện tại, tôi vẫn đi theo hướng "*trích xuất các keys cần ra một object mới". Vì vậy, vẫn hay viết code như sau:
+
+
+**Cách 0**:
+
+```javascript
+const newUser = {};
+Object.keys(user)
+    .map(key => {
+        if (key !=== 'password') {
+            newUser[key] = user[key]
+        }
+    })
+```
+
+Cách làm trên với `Object.keys()` và `map()` vẫn ổn, chưa thấy có vấn đề gì.
+
+Hôm nay đọc bài này ([Handle javascript data structures with map/reduce](https://codeburst.io/writing-javascript-with-map-reduce-980602ff2f2f)), thấy mình có thể dùng `reduce`. Tác giả ghi ở đây là "*xóa đi cặp key-value bên trong một object**". 
+
+**Cách đầu tiên**: 
+
+Qua đủ 4 bước:
+- Bước 1: Duyệt qua mảng của các key trong object
+- Bước 2: Lọc những key bị "cấm"
+- Bước 3: Tạo một mảng mới chứa các cặp key-value còn lại.
+- Bước 4: Tạo ra một object mới từ mảng của bước 3 thông qua `reduce()`.
+- Ghi chú: Hàm `reducer()` sử dụng `spread operator` của ES6 để ghép object.
+
+```javascript
+const reducer = (accumulator, current) => 
+    ({...accumulator, ...current});
+
+const userWithoutPassword = Object.keys(user)
+  .filter(key => key !== 'password')
+  .map(key => ({[key]: user[key]}))
+  .reduce(reducer, {});
+```
+
+**Cách thứ hai**:
+
+Cải tiến hơn, chỉ cần 2 bước. Lần này, hàm `reduce()` có thêm nhiệm vụ lọc các key không cần. 
+
+```javascript
+const reducer = (acc, key) => {
+	return (key === 'password') ? 
+	acc : {...acc, [key]: user[key]}
+} 
+
+const userWithoutPassword = 
+    Object.keys(user)
+        .reduce(reducer,{});
+```
+
+Với cách 2, trường hợp cần xóa một vài (thay vì chỉ 1) key, ví dụ xóa cả key 'password', lẫn key 'age', ta có thể biến tấu hàm `reducer()` thành:
+
+```javascript
+const reducer = (acc, key) => {
+    return ['password', 'age'].indexOf(key) > -1 ? acc : {...acc, [key]: user[key]}
+}
+```
+
+**Cách thứ 3**: 
+Thay vì xóa đi cái không cần, ta lọc ra cái mình cần. Tuy vậy chỉ hữu ích khi số lượng key lọc ra có hạn. Như ở trường hợp này, có 3 key, xóa đi 'password', nghĩa là lọc ra 'name' và 'age'. Cách này sử dụng [Destructuring assignment](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment) của ES6.
+
+```javascript
+const extractKeys = ({name, age}) => ({name, age});
+
+const userWithoutPassword = extractKeys(user)
+```
+
+Vậy trong mấy cách trên (trừ cái số 3), cái nào tối ưu hơn? Chưa rõ. Nếu chưa quen dùng `reduce()` thì đọc sẽ thấy khó hiểu (`reduce()` khó hiểu hơn `map()`). Độ dài code cũng không ngắn hơn. Nhưng tất nhiên từ giờ sẽ sử dụng `reduce()` khi có thể, chủ yếu để tập cho quen.

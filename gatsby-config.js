@@ -4,6 +4,7 @@ module.exports = {
     description: `A blog on front-end development with HTML, CSS, JavaScript and D3.js. Focus on ReactJS.`
   },
   plugins: [
+    `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {

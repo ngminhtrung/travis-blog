@@ -1,0 +1,183 @@
+
+Note: 
+- tại sao luôn cần có initial value?
+- Các đoạn code mẫu sủ dụng `var` thay vì `let` hoặc `const` đề người xem có thể copy paste code mẫu, chỉnh sửa nhiều lần trong phần console của trình duyệt mà không sợ gặp phải thông báo lỗi "*... has already been declared*".
+
+### Tính tổng các giá trị trong một array
+
+```javascript
+var data = [0, 1, 2, 3];
+var sumCalculate = (sum, currentValue) => (sum + currentValue);
+var sum = data.reduce(sumCalculate, 0);
+```
+
+### Làm phẳng array trong array
+
+```javascript
+var data = [[0, 1], [2, 3], [4, 5]];
+var flaten = (flatenedAray, currentElement) => flatenedAray.concat(currentElement);
+var flatenedAray = data.reduce(flaten, []);
+```
+
+### Tính số instances of values trong 1 object
+
+```javascript
+var names = ['Đức', 'Long', 'Thiện', 'Trung', 'Khánh', 'Đức', 'Đạt', 'Ngọc', 'Đạt'];
+var countNames = (allNames, name) => {
+    if (name in allNames) {
+        allNames[name]++
+    } else {
+        allNames[name] = 1;
+    }
+    return allNames;
+}
+var countedNames = names.reduce(countNames, {})
+```
+
+Ghi chú:
+- Nếu không có `return allNames` thì sao?
+- Nếu không có `{}` ở cuối `reduce()` thì sao?
+
+### Bonding arrays contained in an array of objects using the spread operator and initialValue
+
+```javascript
+// friends - một array chứa các object
+// mỗi object sẽ có 1 field là "books" để chứa danh sách các quyển sách
+var friends = [{
+    name: 'Trung',
+    books: ['Tuyển tập Nam Cao', 'Dễ mèn phiêu lưu ký'],
+    age: 21
+}, {
+    name: 'Đức',
+    books: ['Bỉ vỏ', 'Bên thắng cuộc'],
+    age: 26
+}, {
+    name: 'Yến',
+    books: ['Phải lấy người như anh', 'Bạn tôi tình tôi'],
+    age: 18
+}];
+
+// allBooks - danh sách các quyển sách của từng người 
+// kèm thêm những quyển được gán vào initialValue
+
+var bookAccumulate = (books, currentPerson) => ([...books, ...currentPerson.books])
+var allBooks = friends.reduce(bookAccumulate, ['Đất rừng phương Nam'])
+```
+
+### Xóa các item bị trùng trong một array
+```javascript
+var data = [1, 2, 1, 2, 3, 5, 4, 5, 3, 4, 4, 4, 4];
+var removeDuplicate = (finalItemList, currentItem) => {
+    const length = finalItemList.length;
+    if (length === 0 || finalItemList[length - 1] !== currentItem) {
+        finalItemList.push(currentItem);
+    } 
+    return finalItemList;
+}
+var finalResult = data.sort().reduce(removeDuplicate, []);
+```
+Ghi chú:
+- Nếu không có initialValue là `[]` ở cuối `reduce()` thì sẽ gặp thông báo lỗi `finalItemList.push is not a function`.
+
+### Running Promises in Sequence
+
+### Function composition enabling piping
+
+
+---
+
+# Destructuring assignment
+
+"**Destructuring asssignment**" là một cú pháp trong JavaScript để trích xuất các giá trị bên trong array, hoặc thuộc tính bên trong object, đưa vào những variables độc lập.
+
+```js
+var a, b, rest;
+[a, b] = [10, 20];
+
+console.log(a);
+// output: 10
+
+console.log(b);
+// output: 20;
+
+[a, b, ...rest] = [10, 20, 30, 40, 50];
+
+console.log(rest);
+// output: [30, 40, 50]
+
+
+({ a, b} = { a: 10, b: 20});
+console.log(a); // 10;
+console.log(b); // 20;
+
+```
+
+## Trích xuất giá trị của array
+
+### Phép gán đơn giản
+
+```js
+var foo = ['một', 'hai', 'ba'];
+var [one, two, three] = foo;
+console.log(one); // một
+console.log(two); // hai
+console.log(three); // ba
+```
+
+### Gán trực tiếp
+
+```js
+var a, b;
+[a, b] = [1, 2];
+console.log(a) // 1;
+console.log(b) // 2;
+```
+### Giá trị mặc định
+
+```js
+var a, b;
+[a =5, b = 7] = [1];
+console.log(a) // 1;
+console.log(b) // 7;
+```
+
+### Tráo hai biến
+
+Việc tráo hai biến có thể làm như sau;
+
+```js
+var a = 1;
+var b = 100;
+
+[a, b] = [b, a];
+console.log(a) // 100;
+console.log(b) // 1;
+```
+
+Ngoài ra có thể sử dụng toán tử bitwise XOR. 
+
+### Parsing an array return from a function
+
+```js
+function f() {
+    return [1, 2];
+}
+
+var a, b;
+[a, b] = f();
+console.log(a); // 1
+console.log(b); // 2
+```
+
+### Bỏ qua một vài giá trị trả về:
+
+```js
+function f() {
+    return [1, 2, 3];
+}
+
+var a, b;
+[a, , b] = f();
+console.log(a); // 1
+console.log(b); // 3
+```

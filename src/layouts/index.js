@@ -27,8 +27,6 @@ export default ({ children, data }) => (
         fontStyle={`normal`}
         // padding={`10px`}
       >
-        {data.site.siteMetadata.title}
-        Electrical Engineer turned Front-End Web Developer. Married to Awesome. Playing with Data and Visualization. Occasional drawer of Minions.
       </g.H5>
     {/* </Link> */}
     <nav className={centerItems}>
