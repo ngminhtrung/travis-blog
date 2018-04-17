@@ -27,6 +27,7 @@ export default ({ children, data }) => (
         fontStyle={`normal`}
         // padding={`10px`}
       >
+      {data.site.siteMetadata.title}
       </g.H5>
     {/* </Link> */}
     <nav className={centerItems}>
