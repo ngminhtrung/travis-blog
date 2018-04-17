@@ -1,0 +1,72 @@
+---
+id: 108
+title: 'Data Join trong d3'
+date: 2017-11-23
+author: ngminhtrung
+layout: post
+guid: 
+permalink: 
+category:
+  - dataviz
+tags:
+  - javascript
+  - front-end
+  - D3.js
+  - Data Visualization
+  - job
+  - data join
+---
+
+Vì một trong những core của D3.js là việc liên kết tập dữ liệu (data set) với tập các phần tử HTML (HTML element set), cho nên hiểu rõ về "data join" với enter, update, exit, và remove là yêu cầu bắt buộc. Đây là khái niệm cơ bản giúp cho người dùng có thể sử dụng dữ liệu có sẵn, áp vào các HTML (SVG) elements, vẽ nên các bộ phận của một chart hay graph nào đó. Lúc mới sử dụng D3.js, tôi khá lúng túng và rất muốn bỏ quan phần này. Nhưng càng làm nhiều, đọc nhiều code của người khác, rõ ràng việc cố tình không hiểu khái niệm cốt lõi trên sẽ khiến cho những yêu cầu tinh chỉnh theo ý muốn (của bản thân, của khách hàng) đi vào ngõ cụt. Ở bài viết này, tôi sẽ minh họa "data join" trong D3.js theo cách mà tôi muốn giải thích cho những ai chưa có cơ bản về D3.js, đang đi tìm cách thể hiện trực quan, dễ hiểu hoặc dễ nhớ. 
+
+### Data Join là gì?
+
+Hãy tưởng tượng **HTML/ SVG elements** (các thẻ `<div>`, thẻ `<circle>`, thẻ `<rect>` chẳng hạn) như những chiếc **ghế** (`placeholder`) đang đợi các vị **khách** đến ngồi (chính là **data** với **values** khác nhau). *d3.js* cung cấp tính năng để các bạn có thể sắp xếp khách ngồi vào ghế,tức là gán values vào các HTML/SVG elements một cách hiệu quả nhất. Hiệu quả ở đây là gì? là bạn có trong tay rất nhiều tool để tự động hóa việc gán values, các thao tác liên quan đến chỉnh sửa, thêm, xóa values sẽ được phản ánh sang HTML/SVG mà không cần xử lý thủ công.
+
+*Có thể bạn sẽ thắc mắc vậy thì d3.js khác gì so với việc dùng JavaScript thuần*? Nếu cần gán 1 mảng gồm 100 values, mỗi value là 1 giá trị bán kính r của đường tròn (circle), cho 100 thẻ `<circle>` (để vẽ 100 đường tròn trong SVG) thì chỉ cần sử dụng vòng lặp là đủ, sao phải cần d3.js? Nếu cần thay đổi thẻ nào thì hoặc dùng các câu điều kiện, hoặc thông qua JavaScript document getElment, hoặc jQuery để thay đổi giá trị, vậy thôi mà!!!
+
+Tuy thế, hãy nghĩ đến việc bạn biểu diễn dữ liệu chứng khoán, value ở đây là giá trị của 1 mã cổ phiểu ở 1 giờ, và bạn cần biểu diễn giá trị ấy qua 1 đồ thị dạng bar, các bars (mỗi bar là 1 hình chữ nhật) đó lên cao xuống thấp là do values gán vào các thẻ `<rect>`. Chứng khoán được cập nhật hàng giờ, dữ liệu mới thêm vào rất nhiều, làm thể nào chỉ biểu diễn dữ liệu mới nhất cho đến trước đó tối đa 72 giờ? Làm thế nào để xóa dữ liệu cũ, thêm dữ liệu mới, mà chương trình hiểu ngay ta xóa dữ liệu nào, thêm dữ liệu nào, để cập nhật các thẻ `<rect>` tương ứng một cách tự động? Đương nhiên là dùng JavaScript thuần vẫn làm được nhưng sẽ mất công. Đây là điểm mà d3.js mạnh, sẵn sàng hỗ trợ cho bạn. 
+
+Bài toán vẽ đồ thị chứng khoán ở trên cũng giống như bài toán sắp xếp người vào ghế ở trên. Tại một thời điểm, số lượng ghế có thể bằng, ít hơn, hoặc nhiều hơn số khách (tương đương với việc HTML elements bằng/ ít hơn/ nhiều hơn số values trong data). d3.js sẽ giúp xử lý các trường hợp trên thông qua các methods `enter()`, `update()`, và `exit()`.
+
+### Khái niệm về enter, update, và exit
+
+In our previous section on data binding we saw how we can attach data to DOM elements. This provides us with two sets – DOM elements set and the data set. While binding data it may happen that there are surplus/less number of entries on either set. This leaves us with three scenarios:
+
+1. The number of DOM elements are less than the number of data points in the data set. This means that we need to add the missing elements to the DOM. These data points which don’t have a corresponding DOM element yet and are ready to enter the DOM in the form of DOM visual elements form the Enter set.
+2. The number of DOM elements are more than the number of data points in the data set. This means we have to remove the surplus DOM elements for which there is no corresponding data point as a DOM element without a data point attached to it is useless. These surplus DOM elements form the Exit set.
+3. The number of DOM elements are same as the number of data points in the data set. These DOM elements have proper data binding and may need update if the corresponding data value changes. Hence these DOM elements form the Update set.
+
+ 
+
+### Ví dụ 
+
+Hãy xem đoạn code HTML dưới đây, ta có 02 thẻ `<circle>` cần được cập nhật thông số bán kính `r`. Tập dữ liệu về bán kính của ta là `myData = [1, 2, 3, 4, 5]` có 05 phần tử. 
+
+```html
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>D3 Playground</title>
+	</head>
+	
+	<body>
+		<svg width="400" height"100" style="border: 1px solid">
+			<circle cx="100" cy="70" r="10" fill="red"/>
+			<circle cx="200" cy="70" r="20" fill="blue"/>
+		</svg>
+		<script src="https://d3js.org/d3.v4.min.js"></script>
+	</body>
+</html>
+```
+
+Việc này tương đương tình huống ta có 5 vị khách (ứng với 5 phần tử của `myData`) mà chỉ có 2 ghế ngồi (ứng với 2 thẻ `<circle>`). 
+
+- Giả sử 1 căn phòng có 10 chiếc ghế
+- Trường hợp 1: Một đoàn khách đến, số lượng 10 người. Vậy mỗi người sẽ ngồi 1 ghế. Ta dán nhãn nhóm này là nhóm "update". 
+- Trường hợp 2: Đoàn khác có số lượng 12 người. Vậy chỉ 10 người có ghế được dán nhãn "update", còn 2 người còn lại sẽ phải đứng chơ vơ trong phòng, và d3.js sẽ giúp dán mác họ là "enter". Một lúc sau, khi bạn bỗng dưng tìm được ghế cho họ, để gọi được nhóm này, bạn gọi .enter() thì tất cả những ai trong nhóm này sẽ xuất hiện, sau đó .append("chair") thì mỗi người sẽ được 1 chiếc ghế. 
+- Trường hợp 3: ĐOàn khác có số lượng 8 người. Vậy Có 8 người có ghế được dán nhãn "upate", 2 ghế còn lại thừa, được d3.js dán nhãn "exit". Một lúc sau, bạn muốn bỏ bớt ghế thừa ra, thì bạn có thể gọi .exit(), tất cả ghế thừa sẽ xuất hiện, rồi .remove() thì ghế thừa sẽ bị dọn dẹp. 
+
+Có người sẽ thắc mắc tại sao cần phải dẹp dẹp ghế thừa?
+- Để giải phóng không gian của phòng. 
+- Để thêm chỗ cho người mới vào có chỗ kê ghế của họ. 
