@@ -31,6 +31,9 @@ Với ai chưa đụng vào form, bước đầu tiên là hãy quan sát 2 lo�
 | Bên trái, form dạng "**Uncontrolled**"| Dù ta đã nhập 2 ô "firstName" và "lastName", nhưng chữ "fullName" chỉ hiện ra sau khi click nút Submit.|
 | Bên phải, form dạng "**Controlled**" | Dù nút Submit đã bị vô hiệu hóa, thì chỉ cần gõ vào 1 (hoặc cả 2) ô "firstName", ô "lastName", form sẽ tự tổng hợp ra "fullName".|
 
+<p data-height="265" data-theme-id="0" data-slug-hash="VxZagY" data-default-tab="js,result" data-user="ngminhtrung" data-embed-version="2" data-pen-title="ReactJS - Form - Controlled and Uncontrolled form (inputs)" class="codepen">See the Pen <a href="https://codepen.io/ngminhtrung/pen/VxZagY/">ReactJS - Form - Controlled and Uncontrolled form (inputs)</a> by Trung Nguyen (<a href="https://codepen.io/ngminhtrung">@ngminhtrung</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+
 Yeah, vậy là ít nhất ta đã có cảm giác thế nào là **controlled**, thế nào là **uncontrolled**. Cảm giác đó là gì? Hãy liên hệ với những thứ bên ngoài cho dễ nhớ.
 
 | Form "uncontrolled"   | Form "controlled" |
