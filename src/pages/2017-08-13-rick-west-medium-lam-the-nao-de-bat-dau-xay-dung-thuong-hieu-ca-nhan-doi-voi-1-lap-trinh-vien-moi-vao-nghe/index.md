@@ -1,11 +1,7 @@
 ---
-id: 102
-title: '[Rick West @ Medium] &#8211; Làm thế nào đê bắt đầu xây dựng thương hiệu cá nhân đối với 1 lập trình viên mới vào nghề'
-date: 2017-08-13T16:53:32+00:00
+title: '[Rick West @ Medium] Làm thế nào đê bắt đầu xây dựng thương hiệu cá nhân đối với 1 lập trình viên mới vào nghề'
+date: 2017-08-13
 author: ngminhtrung
-layout: post
-guid: http://travisnguyen.net/?p=102
-permalink: /rick-west-medium-lam-the-nao-de-bat-dau-xay-dung-thuong-hieu-ca-nhan-doi-voi-1-lap-trinh-vien-moi-vao-nghe/
 categories:
   - General
 tags:

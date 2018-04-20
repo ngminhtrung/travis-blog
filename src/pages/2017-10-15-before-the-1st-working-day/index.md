@@ -1,11 +1,8 @@
 ---
-id: 107
 title: 'Đêm trước ngày làm việc đầu tiên, vài dòng về hơn 2 tháng vừa qua'
 date: 2017-10-15
 author: ngminhtrung
 layout: post
-guid: 
-permalink: 
 categories:
   - General
 tags:
