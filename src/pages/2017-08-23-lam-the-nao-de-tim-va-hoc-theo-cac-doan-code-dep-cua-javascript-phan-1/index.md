@@ -1,19 +1,15 @@
 ---
-id: 115
-title: 'Làm thế nào để tìm và học theo các đoạn code &#8220;đẹp&#8221; của Javascript? (phần 1)'
-date: 2017-08-23T21:25:49+00:00
+title: 'Làm thế nào để tìm và học theo các đoạn code đẹp của Javascript? (phần 1)'
+date: 2017-08-23
 author: ngminhtrung
-layout: post
-guid: http://travisnguyen.net/?p=115
-permalink: /lam-the-nao-de-tim-va-hoc-theo-cac-doan-code-dep-cua-javascript-phan-1/
 categories:
   - General
 ---
 Phần 1: Viết ngày 23.08.2017
 
-Dù mới học Javascript nhưng tôi thực sự mong mình không chỉ viết được 1 chương trình &#8220;chạy được&#8221;, mà còn phải ngắn gọn, mạch lạc và dễ hiểu để bản thân hay bất kỳ người nào khác sau này đều cảm thấy dễ chịu khi nhìn vào các dòng mã. Lúc viết xong chương trình calculator, dù đây là bài tập nhập môn của lập trình, tôi vẫn thắc mắc liệu mình viết các function, bố trí các objects, classes, variable names đã ok hay chưa? Có vài variable đặt tên đi đặt tên lại vài lần vẫn chưa thấy hài lòng 100%, e là sau này tự đọc lại cũng không hiểu. Tôi muốn đặt tiêu chuẩn cao ngay từ đầu cho mình, để người ngoài khi đọc portfolio của tôi, thấy code tôi viết, có thể hiểu được sự nỗ lực này. Nhưng làm thế nào để có thể đạt được level đó? Việc tuân theo vào coding style chỉ là 1 cách, nhưng chưa tổng quan lắm. Liệu việc đọc source code được đánh giá là &#8220;đẹp&#8221; có giúp tôi học được gì? Tôi đã google với keywords &#8220;_quora how to read Javascript source code_&#8220;, và từ đó, những bài viết liên quan đến &#8220;_where can I find well written Javascript code_&#8221; cứ từ từ hiện ra, đánh trúng vào mối quan tâm. Với series này, tôi sẽ dịch và ghi chú lại những điều tôi thấy hay thực tập ngay bây giờ (nếu có thể), và để sau này quay lại so sánh đối chiếu.
+Dù mới học Javascript nhưng tôi thực sự mong mình không chỉ viết được 1 chương trình "chạy được", mà còn phải ngắn gọn, mạch lạc và dễ hiểu để bản thân hay bất kỳ người nào khác sau này đều cảm thấy dễ chịu khi nhìn vào các dòng mã. Lúc viết xong chương trình calculator, dù đây là bài tập nhập môn của lập trình, tôi vẫn thắc mắc liệu mình viết các function, bố trí các objects, classes, variable names đã ok hay chưa? Có vài variable đặt tên đi đặt tên lại vài lần vẫn chưa thấy hài lòng 100%, e là sau này tự đọc lại cũng không hiểu. Tôi muốn đặt tiêu chuẩn cao ngay từ đầu cho mình, để người ngoài khi đọc portfolio của tôi, thấy code tôi viết, có thể hiểu được sự nỗ lực này. Nhưng làm thế nào để có thể đạt được level đó? Việc tuân theo vào coding style chỉ là 1 cách, nhưng chưa tổng quan lắm. Liệu việc đọc source code được đánh giá là "đẹp" có giúp tôi học được gì? Tôi đã google với keywords "_quora how to read Javascript source code_", và từ đó, những bài viết liên quan đến "_where can I find well written Javascript code_" cứ từ từ hiện ra, đánh trúng vào mối quan tâm. Với series này, tôi sẽ dịch và ghi chú lại những điều tôi thấy hay thực tập ngay bây giờ (nếu có thể), và để sau này quay lại so sánh đối chiếu.
 
-  * <span style="color: #0000ff;"><strong>Danh sách một vài topics (questions) trên quora nói về vấn đề này</strong></span>. Còn rất nhiều nữa nhưng tôi không đọc. Việc lựa chọn các topics này hoàn toàn do tình cờ, dựa trên &#8220;related questions&#8221; mà quora cung cấp. 
+  * <span style="color: #0000ff;"><strong>Danh sách một vài topics (questions) trên quora nói về vấn đề này</strong></span>. Còn rất nhiều nữa nhưng tôi không đọc. Việc lựa chọn các topics này hoàn toàn do tình cờ, dựa trên "related questions" mà quora cung cấp. 
       * <a href="https://www.quora.com/How-do-I-find-some-excellent-javascript-source-code-to-read" target="_blank" rel="noopener">How do I find some excellent javascript source code to read?</a>
       * <a href="https://www.quora.com/Where-can-I-find-well-written-javascript-source-code" target="_blank" rel="noopener">Where can I find well written javascript source code?</a>
       * <a href="https://www.quora.com/How-do-I-read-code-on-GitHub" target="_blank" rel="noopener">How do I read code on GitHub?</a>
@@ -24,9 +20,9 @@ Dù mới học Javascript nhưng tôi thực sự mong mình không chỉ viế
       * Related questions trên Reddit: <a href="https://www.reddit.com/r/javascript/comments/2zt8wg/suggestions_for_must_read_javascript_source_code/" target="_blank" rel="noopener">Suggestions for &#8216;must read&#8217; JavaScript source code</a>
   * <strong style="color: #0000ff;">Tôi đã note được những điều gì qua các bài trên?</strong>
 
-<span style="color: #808080;">Câu hỏi của tôi tuy &#8220;make senses&#8221; và có nhiều người hỏi tương tự, nhưng nó vẫn bị đánh giá là &#8220;too broad&#8221;. Tuy vậy, dù gì thì tôi vẫn thu lượm được những điều bổ ích. </span>
+<span style="color: #808080;">Câu hỏi của tôi tuy "make senses" và có nhiều người hỏi tương tự, nhưng nó vẫn bị đánh giá là "too broad". Tuy vậy, dù gì thì tôi vẫn thu lượm được những điều bổ ích. </span>
 
-**<span style="color: #008000;">Không. Một keyword mới để google sau này: &#8220;annotated sources&#8221;. </span>**
+**<span style="color: #008000;">Không. Một keyword mới để google sau này: "annotated sources". </span>**
 
 <span style="color: #008000;"><strong>Một. Website cá nhân được khuyên để đọc (nơi có các articles về JavaScript)</strong></span>
 
