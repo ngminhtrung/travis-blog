@@ -16,9 +16,8 @@ tags:
 
 Bắt chước tính năng validate form như hình dưới (thegioididong.com):
 
-![alt](Peek.gif)
+![Validation of 1 input](Peek-2018-04-21-10-42.gif)
 
-<img src="../Peek.gif">
 
 **Yêu cầu**:
 1. Chỉ cần kiểm tra xem số điện thoại nhập vào có bao gồm 10 đến 11 chữ số hay không.
@@ -37,7 +36,7 @@ Bắt chước tính năng validate form như hình dưới (thegioididong.com):
 - Demo sản phẩm cuối ở [đây](https://ngminhtrung.github.io/react-form-shopping-cart/)
 
 ### Thực hiện: Validate 1 field "phonenumber"
-
+`
 Với 2 yêu cầu trên, hướng làm chung là:
 
 - **Yêu cầu 1**: Sử dụng regular expression để kiểm tra chuỗi. Tạo method `validateInput()` dựa vào regular expression nói trên, nhận vào là string, trả về kết quả là 1 object `{isInputValid: boolean, errorMessage: string}`.
@@ -133,7 +132,7 @@ Sample code xem tại đây:
 
 ### Nếu cần validate từ 2 input trở lên?
 
-![Form Validation 2 inputs](Peek-2018-04-21-21-06.gif)
+![Form Validation of 2 inputs](Peek.gif)
 
 Nếu muốn validate không những *phonenumber* mà cả *fullname* (Họ và tên không được có ký tự số), hoặc nhiều input nữa trong 1 cụm?  Về logic vẫn làm theo cách trên, nhưng chú ý thêm về:
 

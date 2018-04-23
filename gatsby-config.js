@@ -56,6 +56,9 @@ module.exports = {
             },
           },
           {
+            resolve: `gatsby-remark-copy-linked-files`,
+          },
+          {
             resolve: `gatsby-remark-responsive-image`,
             options: {
               // It's important to specify the maxWidth (in pixels) of 
