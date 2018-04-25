@@ -21,6 +21,8 @@ Updated:
 
 # Blog cá nhân/ Personal blog
 
+- [Elliot Bentley Interactive graphics & data journalism](http://elliotbentley.com/). Một nhà báo tại Wall Street Journal. Ấn tượng bởi các bài kể về những ứng dụng anh này làm cho nghề báo của mình, cũng như các sample data visualization thú vị.
+
 - [Eric Shull - Exupero](http://exupero.org). Mathematician, programmer, writer. Người Mỹ (đang ở Michigan). Tìm thấy bác này sau 1 lần search về cách xuất ảnh từ D3 SVG sang PNG, vì thế mới có bài [này](http://travisnguyen.net/dataviz/2017/12/19/Export-SVG-PNG/). Bác Eric này có một phần riêng về *sketchnote* tôi rất thích. 
 
 - [Tom Mac Wright](https://macwright.org/). Nhạc công kiêm lập trình viên người Mỹ. Data science, Mapbox, OpenStreeMap, D3.js, JavaScript. Phong cách blog tối giản, viết trên nền tảng Jekyll, tên miền riêng. Nhiều projects thú vị. Khả năng vẽ minh họa tuyệt vời. Không nhớ lý do tìm thấc bác này.    

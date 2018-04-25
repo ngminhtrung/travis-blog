@@ -1,39 +1,41 @@
 import React from "react";
 
 export default ({ data }) => (
-  <div>
-    <h1>
-      A little of me ...
-    </h1>
-    <p>
-      Hi. This is Trung Nguyen, but you can call me Travis.
-    <br />
-    <br />
-      Thanks for visiting my personal page 🙂. You know, it's not easy to write about ourselves. And I myself have struggled quite a time for the first lines of this section.
-    <br />
-    <br />
-      Who I am? I was once an electrical and project engineer. In my last job in these roles, I worked for a Swedish-Swiss factory located in Hanoi, Vietnam, where elephant-size electric products were manufactured (specifically it's transformer of up to 110kV, 80 MVA, less than 100 tons).
-    <br />
-    <br />
-      And then, because of some reasons, I decided to switch to other industry. Now, I'm a Software Engineer, working for a Korean company. My company mainly focuses on AI and Social Network Analysis. My task here is to use JavaScript to build tools for data visualization.
-    <br />
-    <br />
-      I maintain this site to demonstrate my programming knowledge and skills. Moreover, it's very cool for looking backward what you've done after a period of time, seeing how you have grown with all mistakes, achievements, stupidities, and joys.
-    <br />
-    <br />
-    PS: <a href="https://techmaster.vn/interviews/34574/nguyen-minh-trung-cau-chuyen-ve-buoc-ngoat-tu-bo-13-nam-hoc-va-lam-nganh-dien-de-theo-duoi-dam-me-lap-trinh" target="_blank" rel="noopener noreferrer">A short interview of me with Techmaster on March 2018.</a> 
-    </p>
+  <article class="post">
 
+    <h1> A collection of my projects for skill demo:  </h1>
 
-  </div>
-);
+    <h2>JavaScript projects</h2>
+    <ol>
+      <li><a href="https://ngminhtrung.github.io/projects/learning/techmaster/memorycard3/index.html" target="_blank">Memory Card Game</a></li>
+      <li><a href="https://ngminhtrung.github.io/projects/learning/techmaster/Calculator/index.html" target="_blank">Simple Scientific Calculator</a></li>
 
-export const query = graphql`
-  query AboutQuery {
-    site {
-      siteMetadata {
-        title
-      }
+    </ol>
+    <br />
+
+      <h2>D3.js - Data Visualization projects</h2>
+
+      <ol>
+        <li><a href="https://ngminhtrung.github.io/projects/learning/d3/vietnam/vn-unemployment-2016" target="_blank">
+          Bar chart - Unemployment rate in regions of Vietnam</a></li>
+        <li><a href="https://ngminhtrung.github.io/projects/learning/d3/vietnam/groupedbar/index.html" target="_blank">
+          Grouped bar-chart - Bar chart - Unemployment rate in regions of Vietnam</a></li>
+        <li><a href="https://ngminhtrung.github.io/projects/learning/d3/vietnam/population/" target="_blank">
+          Visualization of Vietnam's regional population (data 2015). Larger font size means bigger population.
+      </a></li>
+      </ol>
+
+    
+    
+   </article>
+    );
+    
+    export const query = graphql`
+  query ProjectsQuery {
+      site {
+    siteMetadata {
+      title
+    }
     }
   }
 `

@@ -37,6 +37,9 @@ export default ({ children, data }) => (
       <Link className={linkStyle} to={`/about/`}>
         About
       </Link>
+      <Link className={linkStyle} to={`/projects/`}>
+        Projects
+      </Link>
     </nav>
 
     {children()}
