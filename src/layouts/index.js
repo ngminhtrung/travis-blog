@@ -40,6 +40,9 @@ export default ({ children, data }) => (
       <Link className={linkStyle} to={`/projects/`}>
         Projects
       </Link>
+      <Link className={linkStyle} to={`/reading/`}>
+        Reading
+      </Link>
     </nav>
 
     {children()}
