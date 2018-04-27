@@ -1,5 +1,5 @@
 ---
-title: Joel - Thời đại của StackOverflow
+title: Joel Spolksy - Thời đại của StackOverflow
 date: 2018-04-28
 author: ngminhtrung
 categories:
