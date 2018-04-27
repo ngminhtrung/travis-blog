@@ -1,5 +1,5 @@
 ---
-title: Joel Spolksy - Thời đại của StackOverflow
+title: Joel Spolsky - Thời đại của StackOverflow
 date: 2018-04-28
 author: ngminhtrung
 categories:
@@ -10,13 +10,13 @@ categories:
 
 > Một doanh nhân thành công bởi vì họ thấy việc họ làm vô cùng quan trọng, và nếu chưa thực hiện được tâm nguyện, họ sẽ làm việc như điên cho đến khi nó đạt kết quả. Khi chúng tôi bắt đầu Stack Overflow, chúng tôi chẳng hề kỳ vọng nó sẽ biến thành một công việc kinh doanh đồ sộ; chúng tôi chỉ muốn tạo ra một nơi để các lập trình viên có thể nhận được giúp đỡ khi bế tắc trong công việc hàng ngày; hoặc là để khoe mình tài giỏi ra sao khi có thể giúp các đồng nghiệp khác.
 
-Đó là lời kết thúc trong [The Stack Overflow Age](https://www.joelonsoftware.com/2018/04/06/the-stack-overflow-age/) - bài đầu tiên trong chuỗi bài kỷ niệm 10 năm thành lập [Stack Overflow](https://stackoverflow.com/) của Joel Spolksy (người sáng lập ra chính mạng xã hội lớn nhất của lập trình viên trên toàn thế giới). Tôi đọc bài này, thấy nó không những chứa thông tin về lịch sử hình thành của StackOverflow, mà còn là những quan sát của Joel về tâm lý số đông, sự thờ ơ và nghĩ ai cũng đang làm việc đó cho mình, còn bản thân thì chỉ việc ngồi chờ. Là một lập trình viên, dù có ở Việt Nam đi chăng nữa, thì bạn cũng đang dùng Stack Overflow hàng ngày. Vậy sẽ hợp lý khi đọc về nó, do chính người sáng lập của nó viết, để hiểu những gì chúng ta có hôm nay đã được nhào nặn như thế nào trong quá khứ. Thế giới World Wide Web giờ là một thứ tất yếu đến mức nhiều người cũng không biết trước World Wide Web là gì nữa. Phần bên dưới đây là dịch lại bài viết trên. Hy vọng chút thời gian của tôi đem lại thêm chút hiểu biết cho ai đó đang đọc bài này...
+Đó là lời kết thúc trong [The Stack Overflow Age](https://www.joelonsoftware.com/2018/04/06/the-stack-overflow-age/) - bài đầu tiên trong chuỗi bài kỷ niệm 10 năm thành lập [Stack Overflow](https://stackoverflow.com/) của Joel Spolsky (người sáng lập ra chính mạng xã hội lớn nhất của lập trình viên trên toàn thế giới). Tôi đọc bài này, thấy nó không những chứa thông tin về lịch sử hình thành của StackOverflow, mà còn là những quan sát của Joel về tâm lý số đông, sự thờ ơ và nghĩ ai cũng đang làm việc đó cho mình, còn bản thân thì chỉ việc ngồi chờ. Là một lập trình viên, dù có ở Việt Nam đi chăng nữa, thì bạn cũng đang dùng Stack Overflow hàng ngày. Vậy sẽ hợp lý khi đọc về nó, do chính người sáng lập của nó viết, để hiểu những gì chúng ta có hôm nay đã được nhào nặn như thế nào trong quá khứ. Thế giới World Wide Web giờ là một thứ tất yếu đến mức nhiều người cũng không biết trước World Wide Web là gì nữa. Phần bên dưới đây là dịch lại bài viết trên. Hy vọng chút thời gian của tôi đem lại thêm chút hiểu biết cho ai đó đang đọc bài này...
 
 ---
 
 **Thời đại của Stack Overflow**
 
-*Joel Spolksy - đăng ngày 06, tháng Tư năm 2018.*
+*Joel Spolsky - đăng ngày 06, tháng Tư năm 2018.*
 
 Vậy là chỉ còn vài tuần nữa (tính từ 2018-04-06), chúng tôi sẽ công bố triển khai Stack Overflow Teams, bản nâng cấp lớn nhất từ trước đến nay. Chuyện này sẽ vô cùng thú vị. Tôi sẽ viết về nó trong 1 blog tới đây.
 
@@ -72,9 +72,9 @@ Thay vì tóm tất cả những ai làm Java vào 1 diễn đàn nhỏ, còn C+
 
 Dĩ nhiên, mọi thứ phát triển lớn hơn nhiều so với suy nghĩ lúc đầu. Giờ chúng tôi là một team gồm 250 người, có lợi nhuận, và đã tạo ra cơ hội cho hàng triệu lập trình viên học coding, cũng như học cách xử lý một thế giới mới và phức tạp với đầy rẫy API cũng như framework. Nói đi nói lại, chúng tôi đã một thời chỉ muốn cải thiện thế giới Internet mà thôi.
 
-Tôi đã gặp rất nhiều người muốn làm kinh doanh chỉ đơn giản vì họ muốn kinh doanh. Paul Graham gọi đây là một “Playing House.” Những người đó không quan tâm thứ họ kinh doanh là gì; việc đắp lên trên mình chữ "doanh nhân" đã là quá đủ. Điều này vớ vẩn vô cùng, bởi việc là một doanh nhân vô cùng vất vả. Làm sao có thể vượt qua những khó khăn, đau đớn, căng thẳng tột cùng khi mở một doanh nghiệp nếu bạn không có một động lực thực sự đủ lớn để giải quyết 1 vấn đề nào đó cho thế giới xung quanh. 
+Tôi đã gặp rất nhiều người muốn làm kinh doanh chỉ đơn giản vì họ muốn kinh doanh. [Paul Graham gọi đây là một “Playing House.”](http://startupclass.samaltman.com/courses/lec03/) Những người đó không quan tâm thứ họ kinh doanh là gì; việc đắp lên trên mình chữ "doanh nhân" đã là quá đủ. Điều này vớ vẩn vô cùng, bởi việc là một doanh nhân vô cùng vất vả. Làm sao có thể vượt qua những khó khăn, đau đớn, căng thẳng tột cùng khi mở một doanh nghiệp nếu bạn không có một động lực thực sự đủ lớn để giải quyết 1 vấn đề nào đó cho thế giới xung quanh? 
 
-Một doanh nhân thành công bởi vì họ thấy việc họ làm vô cùng quan trọng, và nếu chưa thực hiện được tâm nguyện, họ sẽ làm việc như điên cho đến khi nó đạt kết quả. Khi chúng tôi bắt đầu Overflow, chúng tôi chẳng hề kỳ vọng nó sẽ biến thành một công việc kinh doanh đồ sộ; chúng tôi chỉ muốn tạo ra một nơi để các lập trình viên có thể nhận được giúp đỡ khi bế tắc trong công việc hàng ngày; hoặc là để khoe mình tài giỏi ra sao khi có thể giúp các đồng nghiệp khác.
+Một doanh nhân thành công bởi vì họ thấy việc họ làm vô cùng quan trọng, và nếu chưa thực hiện được tâm nguyện, họ sẽ làm việc như điên cho đến khi nó đạt kết quả. Khi chúng tôi bắt đầu Stack Overflow, chúng tôi chẳng hề kỳ vọng nó sẽ biến thành một công việc kinh doanh đồ sộ; chúng tôi chỉ muốn tạo ra một nơi để các lập trình viên có thể nhận được giúp đỡ khi bế tắc trong công việc hàng ngày; hoặc là để khoe mình tài giỏi ra sao khi có thể giúp các đồng nghiệp khác.
 
 *Thân tặng nhóm [freeCodeCamp Hà Nội](https://www.facebook.com/groups/free.code.camp.hanoi/)*
 
