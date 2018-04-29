@@ -13,6 +13,7 @@ Khi làm việc với SVG và D3.js, thỉnh thoảng ta sẽ gặp từ khóa `
 
 Ghi chú:
 - Ý tưởng và ví dụ lấy từ quyển [SVG Essentials, 2nd Edition - Producing Scalable Vector Graphics with XML](http://shop.oreilly.com/product/0636920032335.do), phần "Grouping and Referencing Objects".
+- Màu sắc trong ảnh minh họa có thể sẽ không giống với code mẫu.
 
 ---
 **Bài toán/ Ví dụ 0**: Em hãy vẽ 01 ngôi nhà bằng thẻ `<svg>`!
