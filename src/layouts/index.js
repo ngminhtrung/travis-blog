@@ -1,8 +1,10 @@
 import React from "react";
+import Helmet from 'react-helmet';
 import g from "glamorous";
 import { css, link } from "glamor";
 import Link from "gatsby-link";
 import { rhythm } from "../utils/typography";
+
 
 const linkStyle = css({
   // float: `right`,
@@ -20,6 +22,7 @@ export default ({ children, data }) => (
     padding={rhythm(1.5)}
     paddingTop={rhythm(0.5)}
   >
+  <Helmet title="Travis Nguyen - Dev Journal" />
     {/* <Link to={`/`}> */}
       <g.H5
         marginBottom={rhythm(1)}

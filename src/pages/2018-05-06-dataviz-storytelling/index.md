@@ -13,7 +13,7 @@ Làm việc với D3js được nửa năm, một trong những điều bận l�
 - Có quá nhiều thứ phải cân nhắc, như chọn loại đồ thị nào cho vấn đề nào, lên layout trình bày cho từng device, highlight dữ liệu nào, thêm tương tác người dùng kiểu gì, v.v.
 - Nhiều lý do khác.
 
-Sau khi đọc bài ["Economy of Vietnam" trên Wikipedia](https://en.wikipedia.org/wiki/Economy_of_Vietnam) và thấy một dự án của MIT biểu diễn dữ liệu kinh tế các quốc gia trên thế giới, tôi tiến hành làm [trang mô tả số liệu Xuất - Nhập khẩu của Việt Nam năm 2016](https://ngminhtrung.github.io/d3/vietnam/export/). Kết quả trông như hình dưới đây (vẫn đang tiếp tục hoàn thiện, phần text chưa chính thức):
+Sau khi đọc bài ["Economy of Vietnam" trên Wikipedia](https://en.wikipedia.org/wiki/Economy_of_Vietnam) và thấy một [[dự án của MIT biểu diễn dữ liệu kinh tế các quốc gia trên thế giới](https://atlas.media.mit.edu/vi/profile/country/vnm/), tôi tiến hành làm [trang mô tả số liệu Xuất - Nhập khẩu của Việt Nam năm 2016](https://ngminhtrung.github.io/d3/vietnam/export/). Kết quả trông như hình dưới đây (vẫn đang tiếp tục hoàn thiện, phần text chưa chính thức):
 
 ![Overview of Vietnam Economics](image001_01.gif)
 
