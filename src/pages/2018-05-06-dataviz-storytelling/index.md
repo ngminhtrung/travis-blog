@@ -113,6 +113,13 @@ Khó. Người dùng biết cách tìm sẽ thấy ngay ở phần fetch data c�
 
 **Giải pháp**? Với những dữ liệu quan trọng cần bảo vệ, hãy render trước từ server và chuyển file ảnh đến browser của người dùng.
 
+**Cập nhật 08.05.2018** từ Tom MacWright trên D3js Slack:
+> You can
+>- restrict access to the application to only people you trust
+>- do the aggregation on the server side so only the sum / average /indicator shown on the chart is served to the page
+>
+> The basic principle is "**if you don't want to share it, don't send it to a browser**". there is no 'encryption' or 'privacy' possible if you also want a data object to be parsed and visualized by d3. so if you want to conceal detailed data, aggregate it into less detailed data using a method that you can be certain can't be disaggregated
+
 ![Data Revealing](image003.png)
 
 ### Kết luận

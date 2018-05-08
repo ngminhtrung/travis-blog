@@ -16,11 +16,11 @@ Updated:
 
 # Blog cá nhân/ Personal blog
 
-- [Amelia Bellamy-Royds](https://github.com/AmeliaBR). SVG guru. Đồng tác giả của quyển "SVG Essentials, 2nd Edition" (O'Reilly), sách gối đầu giường không thể thiếu của người làm D3js. Chỉ bắt đầu để ý chị Amelia này qua một bài rất chi tiết và tổng qua về [d3-zoom trên Stack Overflow](https://stackoverflow.com/questions/21344340/semantic-zooming-of-force-directed-graph-in-d3).
+- [Amelia Bellamy-Royds](https://github.com/AmeliaBR). SVG guru. Đồng tác giả của quyển "SVG Essentials, 2nd Edition" (O'Reilly), sách gối đầu giường không thể thiếu của người làm D3js. Chỉ bắt đầu để ý chị Amelia này qua một bài rất chi tiết và tổng quan về [d3-zoom trên Stack Overflow](https://stackoverflow.com/questions/21344340/semantic-zooming-of-force-directed-graph-in-d3).
 
 - [Jerome Cukier](http://www.jeromecukier.net/). Cựu kỹ sư phần mềm của Facebook. Thành viên tích cực trên Quora. Chuyên về D3 Data visualisation. Gần đây anh này có thêm 1 series về Dataviz trong ReactJS.
 
-- [James K Nelson](http://jamesknelson.com)
+- [James K Nelson](http://jamesknelson.com). Không nhớ lý do tìm đến bạn này. Nhiều bài viết cá nhân về React.
 
 - [Lars Verspohl - Datamake](http://www.datamake.io). Lars Verspohl. analyse and visualise data to engage, inform and explain.
 
