@@ -4,7 +4,7 @@ date: 2018-10-08
 author: ngminhtrung
 categories:
  - cloud
-tags: ["cloud", "aws", "exam""]
+tags: ["cloud", "aws", "exam"]
 ---
 
 Dưới đây là một vài ghi chép của tôi sau buổi thi AWS Certified Solutions Architect - Associate ngày 08.10.2018 tại NetPro (số 9 Trung Liệt, Đống Đa, Hà Nội). 
