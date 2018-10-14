@@ -14,13 +14,13 @@ tags:
   - '2018'
 ---
 
-Đã hết Q3 của 2018, 6 tháng đã qua từ lúc làm review Q1 2018, thời gian trôi nhanh quá, nhiều việc đã diễn ra, việc phải làm/ cần làm sắp tới, không có mấy thời gian tĩnh tâm để đánh giá lại bản thân...
+Đã hết Q3 của 2018, 6 tháng đã qua từ lúc làm [review Q1 2018](https://travisnguyen.net/selfpondering/2018/04/08/half-year-review/), thời gian trôi nhanh quá, nhiều việc đã diễn ra, việc phải làm/ cần làm sắp tới, không có mấy thời gian tĩnh tâm để đánh giá lại bản thân...
 
 Điều tích cực trong 6 tháng vừa qua là:
 - chuyển vào team Data Science của FSOFT (lưu ý: Đây không phải team duy nhất trong FSOFT làm Data Science), chiến các dự án mà dự liệu dạng Time Series (ví dụ như sensor log của nhà máy):
     - đã được làm thực sự 2 - 3 dự án thực, trong đó 1 dự án sử dụng Reinforcement Learning ở cấp độ sản phẩm chứ không phải là POC (Proof Of Concept).
     - được training lẫn tự học các khái niệm cơ bản của Data Science, làm quen với các thuật toán trong Machine Learning. 
-- thi được chứng chỉ AWS Certified Solutions Architect - Associate Level. 
+- [thi được chứng chỉ AWS Certified Solutions Architect - Associate Level](https://travisnguyen.net/cloud/2018/10/11/aws-csa-a-exam-notes/): 
     - làm quen với cloud của Amazon, ứng dụng nó một phần vào dự án đang làm.
     - bước đầu nhìn thấy thế nào là kiến trúc của một sản phẩm, nhìn thấy các các luồng công việc ở một vài bài toán điển hình mà Amazon nhắc đến, hiểu các khối lego service của AWS sẽ được lắp ghép như thế nào, và hình dung ngược lại bài toán truyền thống sẽ ra sao. 
 
