@@ -12,7 +12,7 @@ tags:
   - '2018'
 ---
 
-Nhân dịp phải làm OKR (Objective & Key Result) cho bản thân trong năm 2019, và tình cờ đọc tư vấn của Mr. Nguyễn Huyền Linh cho các doanh nghiệp nhỏ (tại [Facebook của anh]), muốn copy paste lại để nghĩ cách áp dụng nhưng thứ này cho mình, coi mình như 1 SME trong 1-3 năm tới.
+Nhân dịp phải làm OKR (Objective & Key Result) cho bản thân trong năm 2019, và tình cờ đọc tư vấn của Mr. Nguyễn Huyền Linh cho các doanh nghiệp nhỏ (tại [Facebook của anh](https://www.facebook.com/linh.nguyenhuyen.52/posts/1770816326363893)), muốn copy paste lại để nghĩ cách áp dụng nhưng thứ này cho mình, coi mình như 1 SME trong 1-3 năm tới.
 
 > NGHĨ LỚN, BƯỚC NHỎ, ĐI NHANH, ĐỔI KỊP
 > Nguyễn Huyền Linh. 28.12.2018
