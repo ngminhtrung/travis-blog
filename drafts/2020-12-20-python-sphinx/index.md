@@ -27,8 +27,6 @@ tags:
 - Còn các cách nào khác không? Có, như sử dụng PyDoc. Nhưng chi tiết hơn thì không rõ. 
 
 
-
-
 https://romanvm.pythonanywhere.com/post/autodocumenting-your-python-code-sphinx-part-ii-6/
 
 https://samnicholls.net/2016/06/15/how-to-sphinx-readthedocs/
