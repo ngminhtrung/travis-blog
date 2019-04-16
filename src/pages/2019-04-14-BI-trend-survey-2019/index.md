@@ -23,7 +23,7 @@ Bài viết gốc: https://bi-survey.com/top-business-intelligence-trends
 Theo như kết quả khảo sát, ba xu hướng quan trọng nhất của năm 2018 vẫn còn nguyên khi sang 2019 đó là:
 - vị trí 1: master data và data quality management
 - vị trí 2: data discovery
-- vịu trí 3: self-service BI
+- vị trí 3: self-service BI
 
 ![Importance of Business Intelligence Trends in 2019 (n=2,679)](./01_Importance_of_BI_Trends_in_2019.png)
 
