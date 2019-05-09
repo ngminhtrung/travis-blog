@@ -46,6 +46,9 @@ Thật là ngạc nhiên! Làm thế nào một doanh nghiệp lại tiến hàn
 
     Như lưu ý của bản phân tích khảo sát: *Tuy MES đem lại một vài lợi ích ngắn hạn, nhưng những cải tiến lâu dài (giảm chi phí lao động, cải thiện hàng tồn kho và dòng tiền) vẫn cần thời gian, cần sự tập trung dài hạn vào nguồn nhân lực, quy trình, cũng như công nghệ*.
 
+
+![Low_hanging_fruit](./illustration_01_maxtrix.png)
+
 2. **Hai**: Các doanh nghiệp phải vật lộn với công việc điều hành sản xuất vốn đã vô cùng phức tạp, khi đụng vào Enterprise MES thì đồng nghĩa đụng đến mọi hoạt động, từ quy trình, vật liệu và thiết bị, đến lập kế hoạch, con người và đối tác. Nghĩa là không chỉ là kế hoạch cài cắm phần mềm, mà còn là một chiến lược dài hạn để thay đổi và chuyển đổi những thứ khác.
 
 ## Bài học kinh nghiệm ở đây là gì?
