@@ -1,5 +1,5 @@
 ---
-title: 'MES - Những bài học từ kinh nghiệm để có thể thành công trong các dự án tương lai'
+title: 'MES - Những bài học để thành công'
 date: 2019-05-09
 author: ngminhtrung
 categories:
