@@ -14,6 +14,9 @@ tags:
 
 Series bài dịch về [MES](https://en.wikipedia.org/wiki/Manufacturing_execution_system) trong quá trình tìm hiểu về hệ thống này.
 
+- Bài 1: [MES - Những bài học để thành công](https://travisnguyen.net/MES/2019/05/09/mes-failure-success/)
+- Bài 2: [Vai trò của Center OF Excellence trong việc hiện thực hoá chuyển đổi hoạt động sản xuất](https://travisnguyen.net/MES/2019/05/10/mes-failure-success-2/)
+
 Bài gốc "[The secret to MES success: Learn from experience](http://www.apriso.com/blog/2016/07/the-secret-to-mes-success-learn-from-experience/)" được viết bởi Darren Riley, một Business Solution Consultant của Apriso vào tháng 7 năm 2016.
 
 =======

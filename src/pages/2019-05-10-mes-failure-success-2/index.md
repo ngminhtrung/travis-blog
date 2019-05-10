@@ -14,8 +14,8 @@ tags:
 
 Series bài dịch về [MES - Manufacturing Execution System](https://en.wikipedia.org/wiki/Manufacturing_execution_system) trong quá trình tìm hiểu về hệ thống này.
 
-- Bài 1: [MES - Những bài học để thành công](../2019-05-09-mes-failure-success/)
-- Bài 2: [Vai trò của Center OF Excellence trong việc hiện thực hoá chuyển đổi hoạt động sản xuất](../../)
+- Bài 1: [MES - Những bài học để thành công](https://travisnguyen.net/MES/2019/05/09/mes-failure-success/)
+- Bài 2: Vai trò của Center OF Excellence trong việc hiện thực hoá chuyển đổi hoạt động sản xuất
 
 Bài gốc "[Center OF Excellence: Optimizing key step in realizing MES/MOM operational transformation](http://www.apriso.com/blog/2017/04/center-of-excellence-optimizing-key-step-in-realizing-mesmom-operational-transformation/)" được viết bởi Darren Riley, một Business Solution Consultant của Apriso vào tháng 4 năm 2017.
 
