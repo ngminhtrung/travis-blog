@@ -12,9 +12,9 @@ tags:
   - '2019'
 ---
 
-Series bài dịch về [MES](https://en.wikipedia.org/wiki/Manufacturing_execution_system) trong quá trình tìm hiểu về hệ thống này
+Series bài dịch về [MES](https://en.wikipedia.org/wiki/Manufacturing_execution_system) trong quá trình tìm hiểu về hệ thống này.
 
-Bài gốc "[The secret to MES success: Learn from experience](http://www.apriso.com/blog/2016/07/the-secret-to-mes-success-learn-from-experience/)" được viết bởi Darren Riley, một Business Solution Consultant của Apriso.
+Bài gốc "[The secret to MES success: Learn from experience](http://www.apriso.com/blog/2016/07/the-secret-to-mes-success-learn-from-experience/)" được viết bởi Darren Riley, một Business Solution Consultant của Apriso vào tháng 7 năm 2016.
 
 =======
 
