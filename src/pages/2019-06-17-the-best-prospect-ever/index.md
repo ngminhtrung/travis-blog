@@ -33,7 +33,10 @@ Nhân một buổi sáng cuối tuần phải đi làm. Trời xám xịt. Mưa 
 
 ===================
 
-[18 Things You Need To Give Up To Become A High-Achieving Person](https://www.forbes.com/sites/briannawiest/2018/03/20/18-things-you-need-to-give-up-to-become-a-high-achieving-person/#338b88df11fa) của [Brianna Wiest](https://www.forbes.com/sites/briannawiest/people/briannawiest2/#46844f132dff) đăng trên Forbes tháng 3 năm 2018.
+
+# 18 Things You Need To Give Up To Become A High-Achieving Person
+
+Lược dịch từ bài của [Brianna Wiest](https://www.forbes.com/sites/briannawiest/people/briannawiest2/#46844f132dff) đăng trên [Forbes tháng 3 năm 2018]((https://www.forbes.com/sites/briannawiest/2018/03/20/18-things-you-need-to-give-up-to-become-a-high-achieving-person/#338b88df11fa) ).
 
 Một bí mật của sự thành công, đó là việc bạn sẵn sàng "từ bỏ" bao nhiêu thứ, thì những gì bạn có được cũng tương đương bấy nhiêu.
 
