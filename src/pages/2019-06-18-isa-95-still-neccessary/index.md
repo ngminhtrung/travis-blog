@@ -1,6 +1,6 @@
 ---
 title: 'ISA-95 không lạc hậu, mà cần thiết cho nền sản xuất thông minh'
-date: 2019-06-17
+date: 2019-06-18
 author: ngminhtrung
 categories:
   - manufacturing
