@@ -12,7 +12,7 @@ tags:
   - '2019'
 ---
 
-Data là chủ đề rất quan trọng khi xây dựng bất kỳ giải pháp phần mềm nào, nhưng nó lại khiến người không chuyên (thậm chí cả chuyên) nhầm lẫn giữa một loạt khái niệm, như phân biệt **master data**, **transaction data**, và **master data** chẳng hạng. Nhân khi đọc bài "*Guidelines for defining user requirement specifications (URS) of manufacturing execution system (MES) based on ISA-95 standard*" ([Lei Yue et al 2019 J. Phys.: Conf. Ser. 1168 032065](https://doi.org/10.1088/1742-6596/1168/3/032065)) nói về **reference data**, tôi thấy mình cần tìm hiểu và note lại vài mục để làm cơ sở cho các thảo luận nâng cao sau này. 
+Data là chủ đề rất quan trọng khi xây dựng bất kỳ giải pháp phần mềm nào, nhưng nó lại khiến người không chuyên (thậm chí cả chuyên) nhầm lẫn giữa một loạt khái niệm, như phân biệt **master data**, **transactional data**, và **master data** chẳng hạng. Nhân khi đọc bài "*Guidelines for defining user requirement specifications (URS) of manufacturing execution system (MES) based on ISA-95 standard*" ([Lei Yue et al 2019 J. Phys.: Conf. Ser. 1168 032065](https://doi.org/10.1088/1742-6596/1168/3/032065)) nói về **reference data**, tôi thấy mình cần tìm hiểu và note lại vài mục để làm cơ sở cho các thảo luận nâng cao sau này. 
 
 ![Reference_data](./fig_01.png)
 
@@ -41,7 +41,7 @@ Ví dụ về reference data:
 
 > A set of permissible values associated with a distinct definition, used within a system or shared between multiple systems in an organization, domain or industry, which provides a standardized semantic to further categorize a data record.
 
-## Năm (5) đặc tính của reference data
+## 2. Năm (5) đặc tính của reference data
 
 Theo [lightsondata](https://www.lightsondata.com/reference-data-needs-standard-definition/):
 
@@ -56,7 +56,7 @@ Theo [lightsondata](https://www.lightsondata.com/reference-data-needs-standard-d
 5. Thường được định nghĩa bởi bên thứ 3 độc lập, như ISO, UN, WHO, v.v.
 
 
-## Reference data có thể được phân vào 3 nhóm:
+## 3. Reference data có thể được phân vào 3 nhóm:
 
 - Nhóm 1: Universal reference data (cả thế giới dùng)
 - Nhóm 2: Industry reference data (dùng trong một nhóm ngành công nghiệp)
@@ -67,3 +67,5 @@ Theo [lightsondata](https://www.lightsondata.com/reference-data-needs-standard-d
 | Cả thế giới dùng     | [United Nations Standard Products and Services Code (UNSPSC)](https://en.wikipedia.org/wiki/UNSPSC) | Đơn vị đo lường |[WHO - International Classification of Diseases (ICD)](https://www.who.int/classifications/icd/factsheet/en/), [ISO - Country Currency Code](https://www.iban.com/currency-codes) |
 | Trong 1 nhóm ngành công nghiệp      | [North American Industry Classification System](https://en.wikipedia.org/wiki/North_American_Industry_Classification_System)      | Biểu phí/ thuế | [United States Postal Service (USPS) cho địa chỉ phố](https://en.wikipedia.org/wiki/ZIP_Code) |
 | Nội bộ tập đoàn/ doanh nghiệp | Danh sách các phòng ban      | Phân bố ngân sách, error margin| Transaction code & Status code |
+
+
