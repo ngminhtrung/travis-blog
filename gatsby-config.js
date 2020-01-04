@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Electrical Engineer turned Data Scientist. Married to Awesome. Occasional drawer of Minions.`,
-    description: `A blog on front-end development with HTML, CSS, JavaScript and D3.js. Focus on ReactJS.`
+    description: `A blog on my journey to empathize and consult customer regarding IT solutions.`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

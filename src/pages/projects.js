@@ -3,7 +3,7 @@ import React from "react";
 export default ({ data }) => (
   <article class="post">
 
-    <h1> A collection of my projects for skill demo:  </h1>
+    <h1> A collection of my projects for skill illustration:  </h1>
 
     <h2>Nodejs, ReactJS</h2>
     <ol>
