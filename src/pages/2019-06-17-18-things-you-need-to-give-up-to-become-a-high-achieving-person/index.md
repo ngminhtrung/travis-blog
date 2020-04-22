@@ -85,5 +85,4 @@ Cách bạn nói với những người đã có được thứ bạn muốn s�
 
 #### 18. Đợi hoàn cảnh thay đổi trước khi hành động
 
-The reality is that life unfolds from the inside out, and that we don't change when our circumstances do, our circumstances change when we do.
-
+Sự thật phũ phàng là cuộc sống hé mở từ bên trong ra ngoài. Và chúng ta sẽ chẳng bao giờ thay đổi khi cuộc đời thay đổi, mà phải là điều ngược lại: Khi chúng ta thay đổi, cuộc đời đổi thay.
