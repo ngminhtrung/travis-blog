@@ -22,3 +22,9 @@ Ghi chép ngày 09.11.2019, sau buổi làm việc tại địa điểm của kh
 >
 >Cảm giác thứ mình "sẽ" xây dựng sẽ giúp "Kaizen" một phần công việc của một tập thể là thứ hạnh phúc rất dễ chịu, xứng đáng cho những ngày lang thang nhà máy ăn cơm công nhân chẳng sang chảnh.
 
+09.11.2019
+
+Trung Nguyễn (Travis)
+Sales Engineer/ Solution Consultant | Manufacturing domain
+FPT Software
+
