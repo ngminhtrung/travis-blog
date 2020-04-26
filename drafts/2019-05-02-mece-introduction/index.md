@@ -13,6 +13,8 @@ tags:
 ---
 
 MECE Framework McKinsey
+
+https://www.mbacrystalball.com/blog/strategy/mece-framework/
  
 “**MECE**,” (phát âm là “*me see*”), viết tắt cho cụm “*mutually exclusive & collectively exhaustive*,” là một cách tư duy giải quyết vấn đề rất phổ biến ở những công ty tư vấn như McKinsey. Nó là một cách tập hợp và chia nhỏ thông tin thành những mảng (hoặc những phần tử) không có "gaps" (collectively exhaustive - CE) và không có "overlaps" (mutually exculusive - ME). Nói cách khác, nó là cách mà thông tin (bao gồm ý tưởng, topics, issues, solutions) được sắp đặt vào những “MECE buckets": các bucket không nằm chồng lấn lên nhau, mỗi item chỉ thuộc về 1 bucket mà thôi, và các bucket đã chứa tất cả các items có thể xảy ra trong context.
  

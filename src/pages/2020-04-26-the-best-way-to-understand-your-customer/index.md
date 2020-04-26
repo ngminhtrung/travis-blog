@@ -16,14 +16,16 @@ Với tôi, hiểu khách hàng là một việc vô cùng dễ .. mắc sai l�
 
 Tôi đã chứng kiến *những cuộc họp mà người cung cấp dịch vụ ngay từ lần đầu tiên gặp nhau đã nói nhiều hơn nghe*: khách hàng chưa nói hết ý đã cướp lời, chen ngang bằng việc khoe khoang những tính năng của sản phẩm mình đang có, bằng những kinh nghiệm lẻ tẻ cóp nhặt đây đó, kỳ vọng nhận được sự tán dương của khách. 
 
-**Với những lần gặp khách đầu tiên, điều khó nhất, thử thách nhất lại chính là làm sao nói ít nhất có thể, nghe nhiều và khơi gợi câu chuyện của khách nhiều nhất**. Xin nhắc lại: "Nói ít" là điều khó và vô cùng thử thách, đặc biệt là khi bạn gặp khách hàng tiềm năng và đang muốn "xử đẹp" ngàng nhanh càng tốt. 
+**Với những lần gặp khách đầu tiên, điều khó nhất, thử thách nhất lại chính là làm sao nói ít nhất có thể, nghe nhiều và khơi gợi câu chuyện của khách nhiều nhất**. Xin nhắc lại: "Nói ít" là điều khó và vô cùng thử thách, đặc biệt là khi bạn gặp khách hàng tiềm năng và đang muốn "xử đẹp" càng nhanh càng tốt. 
 
 Sự khiêm tốn và tỉnh táo là cần thiết để ghi nhận chức danh, cá tính, nhu cầu của người (hoặc nhóm người) phía khách hàng đang gặp mình. Bản thân khách cũng chưa chắc đã diễn tả chính xác về nhu cầu của họ ngay từ những câu nói đầu tiên, có thể:
 - mỗi người trong số khách đang đeo đuổi các cách nhìn khác nhau về cùng 1 vấn đề
-- khách chưa nói được rành rọt vì sau vấn đề phải giải quyết? vì sao? vì sao? vì sao .. đủ 6 lần "vì sao" để đi đến ngọn ngành?
+- khách chưa nói được rành rọt vì sao vấn đề phải giải quyết? vì sao? vì sao? vì sao .. đủ 6 lần "vì sao" để đi đến ngọn ngành?
 - khách cũng có các kỳ vọng khác nhau, mâu thuẫn nhau về hướng giải quyết
 - những lo lắng, quan ngại về phía cung cấp dịch vụ không được nêu ra thẳng thắn. 
 - v.v
+
+Đó là lý do mà tư vấn/ sales/ presales cần nghe nhiều hơn, hỏi nhiều hơn, khiến khách hàng kể và giãi bài mong muốn thực sự của họ. 
 
 Trong "Guide to Winning Clients", David A. Fields đã nói về việc này trong phần "Discovering Context". Highly recommend người làm tư vấn/ sales/ presales tham khảo phần này. 
 
