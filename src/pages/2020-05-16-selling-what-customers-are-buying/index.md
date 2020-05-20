@@ -17,7 +17,7 @@ Trong bài "[Làm sao để hiểu khách hàng](https://travisnguyen.net/pre_sa
 
 Để đánh giá xem proposal đã thực sự hướng đến thứ khách hàng cần hay chua, Bob Apollo cũng đưa ra những hướng dẫn cụ thể hơn. Hình dưới đây là một trong các ví dụ mà ông nhắc đến trong guideline của mình:
 
-![an example of a set of Initial Qualification guidelines](./Figure1.png)
+![an example of a set of Initial Qualification guidelines](./figure1.png)
 
 Ghi chú nhanh: Bài viết về "*Minimum viable problem*" có thể đọc ở [đây](https://www.inflexion-point.com/blog/what-is-your-customers-minimum-viable-problem). Nôm na thì:
 - "*Minimum viable product*" phổ biến trong giới startup, liên quan đến việc phát hành những sản phẩm có những tính năng vừa đủ đáp ứng nhu cầu đầu tiên của khách hàng, nhằm đón nhận phản hồi sớm nhất có thể. 
