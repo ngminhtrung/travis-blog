@@ -1,5 +1,5 @@
 ---
-title: 'Bán thứ khách hàng cần, chỉ thứ khách hàng cần mà thôi'
+title: 'Bán thứ khách hàng cần, chỉ thứ khách hàng cần mà thôi!'
 date: 2020-05-16
 author: ngminhtrung
 categories:
