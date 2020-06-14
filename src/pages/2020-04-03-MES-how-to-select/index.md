@@ -125,16 +125,5 @@ Song song với nhóm PoC đang làm việc mình, thì nhóm làm hợp đồng
 
 Năm (5) bước trên sẽ giúp doanh nghiệp hình dung tổng thể cần phải làm gì khi lựa chọn giải pháp MES. Trong thời điểm dịch bệnh trên toàn thế giới đầu năm 2020, các bước trên đều có thể làm từ xa, giúp doanh nghiệp vẫn có thể tiến hành dự án đầu tư MES mà không bị bó buộc bởi các buổi trao đổi tận nơi.
 
-
-
-
-
-
-
-
-
-
-
 Trung Nguyễn (Travis)
 Sales Engineer/ Solution Consultant | Manufacturing domain
-FPT Software

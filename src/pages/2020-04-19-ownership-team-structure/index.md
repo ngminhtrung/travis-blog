@@ -55,4 +55,3 @@ Khó có câu trả lời làm chính bản thân tôi hài lòng, nhưng tạm 
 
 Trung Nguyễn (Travis)
 Sales Engineer/ Solution Consultant | Manufacturing domain
-FPT Software

@@ -27,4 +27,3 @@ Với bạn thì sao? Bạn nghĩ gì về cách mà mình (hoặc đồng nghi�
 
 Trung Nguyễn (Travis)
 Sales Engineer/ Solution Consultant | Manufacturing domain
-FPT Software

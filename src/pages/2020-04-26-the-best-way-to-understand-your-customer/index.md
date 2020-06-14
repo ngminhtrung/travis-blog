@@ -10,6 +10,8 @@ tags:
   - '2020'
 ---
 
+Note: updated 14.06.2020
+
 Đã hết tháng thứ tư của 2020, tôi cũng vừa hoàn thành việc tiếp xúc, lắng nghe nhu cầu của 5 khách hàng, đạt mục tiêu của Q1 :-). Tranh thủ ghi chép lại một hai suy nghĩ về lần đầu gặp khách hàng. 
 
 Với tôi, hiểu khách hàng là một việc vô cùng dễ .. mắc sai lầm :-). Bởi chúng ta có thiên hướng áp đặt cái quen thuộc với mình lên ý tứ của khách một cách vô thức. Không hiểu khách sẽ dẫn đến hệ luỵ là mọi đề xuất giải quyết đều sai, bắt đầu sai từ người đi lấy nhu cầu, cho đến sai của người phát triển, và cuối cùng là sai của người triển khai. 
@@ -26,6 +28,11 @@ Sự khiêm tốn và tỉnh táo là cần thiết để ghi nhận chức danh
 - v.v
 
 Đó là lý do mà tư vấn/ sales/ presales cần nghe nhiều hơn, hỏi nhiều hơn, khiến khách hàng kể và giãi bài mong muốn thực sự của họ. 
+
+Trong course "[Soft Skills for Sales Professionals](https://www.linkedin.com/learning/soft-skills-for-sales-professionals)" của Meridith Powell, tác giả có nhấn mạnh về việc lắng nghe khách hàng như sau:
+- Luôn "pay attention", nghĩa là *khi khách hàng đang nói, làm ơn đừng nghĩ về những gì bạn sắp nói, hoặc những gì bạn đã nói 10 phút trước*. Hãy chỉ ở trong "hiện tại", và thực sự lắng nghe. 
+- Khi bạn lắng nghe, không chỉ khách hàng cảm thấy sự quan trọng của họ, mà chính bạn cũng phát huy được trực giác giao tiếp của mình, đảm bảo ghi nhận đủ thông tin để đưa khách hàng câu trả lời/ giải pháp tốt nhất.
+![Làm sao để cải thiện kỹ năng giao tiếp](./figure1.png)
 
 Trong "Guide to Winning Clients", David A. Fields đã nói về việc này trong phần "Discovering Context". Highly recommend người làm tư vấn/ sales/ presales tham khảo phần này. 
 

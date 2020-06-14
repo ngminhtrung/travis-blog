@@ -26,5 +26,4 @@ Ghi chép ngày 09.11.2019, sau buổi làm việc tại địa điểm của kh
 
 Trung Nguyễn (Travis)
 Sales Engineer/ Solution Consultant | Manufacturing domain
-FPT Software
 
