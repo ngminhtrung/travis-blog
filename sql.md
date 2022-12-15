@@ -28,7 +28,16 @@ from
   ) as table3 on table0.candidate_id = table3.candidate_id 
 where 
   table0.skill in ('PostgreSQL')
+ ```
 
+```sql
+SELECT
+  candidate_id
+FROM candidates
+WHERE skill IN ('Python', 'Tableau', 'PostgreSQL')
+GROUP BY candidate_id
+having count(skill) = 3
+ORDER BY candidate_id
 ```
 
 
